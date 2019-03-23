@@ -1,30 +1,19 @@
 import React from 'react';
 import "./ListItem.css";
 
-// class ListItem extends React.Component {
-//     render(props) {
-//         return(
-//             <ul>
-//               <li>
-//                 <h4>{props.name}</h4>
-//                 <p>{props.phone}</p>
-//                 <p>{props.city}</p>
-//               </li>  
-//             </ul>
-//         )
-//     }
-// }
-
-const ListItem = (props) => {
-  return(
-    <ul>
-               <li>
-                <h4>{props.name}</h4>
-                <p>{props.phone}</p>
-                 <p>{props.city}</p>
-               </li>  
-             </ul>
-  )
+class ListItem extends React.Component {
+    render() {
+  const { name, phone, city } = this.props
+        return(
+            
+              <li>
+                <h4>{name}</h4>
+                <p>{phone}</p>
+                <p>{city}</p>
+              </li>  
+            
+        )
+    }
 }
 
 export default ListItem;

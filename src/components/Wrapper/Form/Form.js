@@ -3,10 +3,16 @@ import "./Form.css";
 
 class Form extends React.Component {
   render() {
+    const { submitFn } = this.props
+
     return (
-      <div className="Form">
+      <form className="Form" onSubmit={submitFn}>
         <p> Fill in ... </p>
-      </div>
+        <input placeholder="Name"/>
+        <input placeholder="Phone number" />
+        <input placeholder="City" />
+        <button type="submit">Add new person</button>
+      </form>
     );
   }
 }
