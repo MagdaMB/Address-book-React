@@ -1,0 +1,8 @@
+.ListItem__element {
+    max-width: 40%;
+    box-sizing: border-box;
+    padding: 5px;
+    list-style: none;
+    color: #000;
+    
+}

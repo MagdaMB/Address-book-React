@@ -6,7 +6,7 @@ class ListItem extends React.Component {
   const { name, phone, city } = this.props
         return(
             
-              <li>
+              <li className="ListItem__element">
                 <h4>{name}</h4>
                 <p>{phone}</p>
                 <p>{city}</p>

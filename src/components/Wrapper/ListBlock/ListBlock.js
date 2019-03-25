@@ -7,8 +7,8 @@ class ListBlock extends React.Component {
     const { items } = this.props
     return (
       <div className="ListBlock">
-        <h2> Personal Data </h2>
-        <ul>
+        <h2 className="ListBlock__header"> Personal Data </h2>
+        <ul className="ListBlock__list">
           {
             items.map((item, index) => (
               <ListItem key={index} name={item.name} phone={item.phone} city={item.city} />

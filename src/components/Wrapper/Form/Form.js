@@ -7,11 +7,11 @@ class Form extends React.Component {
 
     return (
       <form className="Form" onSubmit={submitFn}>
-        <p> Fill in ... </p>
-        <input placeholder="Name"/>
-        <input placeholder="Phone number" />
-        <input placeholder="City" />
-        <button type="submit">Add new person</button>
+        <p className="Form__paragraph"> Fill in ... </p>
+        <input placeholder="Name" className="Form__input" required/>
+        <input placeholder="Phone number" className="Form__input" required/>
+        <input placeholder="City" className="Form__input" required/>
+        <button type="submit" className="Form__button">Add new person</button>
       </form>
     );
   }

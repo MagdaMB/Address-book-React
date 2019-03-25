@@ -1,5 +1,52 @@
 .Form {
-    flex-grow: 1;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 15px solid;
+    border-color: rgba(255, 255, 255, 0.6);
+    border-radius: 4px;
+    bottom: 10%;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    left: 40%;
+    max-width: 60%;
+    position: relative;
+    width: 40%;
+}
+
+.Form__paragraph {
+    color: #000;
+    font-size: 14px;
+    margin: 5px 10px;
+    text-align: center;
+}
+
+.Form__input {
+    background: transparent;
+    border-bottom: 2px solid #000;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    box-sizing: border-box;
+    margin: 5px 10px;
+    max-width: 40%;
+    padding: 10px 30px;
+
+}
+
+.Form__button {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    margin: 5px 10px;
+    max-width: 40%;
+    padding: 10px 30px;
+}
+
+::-webkit-input-placeholder {
+    color: #000;
 }

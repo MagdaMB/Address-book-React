@@ -1,4 +1,24 @@
 .ListBlock {
+    background-color: rgba(0,0,0,0.2);
+    border: 15px solid;
+    border-color: rgba(255,255,255,0.4);
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #000;
     display: block;
     flex-grow: 2;
+    float: left;
+    font-size: 14px;
+    height: auto;
+    left: 40px;
+    max-width: 90%;
+    padding: 20px;
+    position: relative;
+    top: 20px;
+    width: 50%;
+}
+
+.ListBlock__list {
+    display: flex;
+    flex-wrap: wrap;
 }
