@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './Wrapper.css';
+// import './Wrapper.css';
+import './Wrapper.scss';
 import ListBlock from './ListBlock/ListBlock';
 import Form from './Form/Form'; 
 
